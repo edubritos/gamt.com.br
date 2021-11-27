@@ -30,7 +30,7 @@ const Grupamento = () => (
                     <br />
                 </p>
                 <div className="imgGrupamento1 ">
-                    <img src="./static/slider/17.JPG" alt="Vista aérea do morro do Tijuca Mirim" />
+                    <img src="./static/slider/17.jpg" alt="Vista aérea do morro do Tijuca Mirim" />
                     <img src="./static/slider/19.jpg" alt="Ninho de Tapitis emcontrados em trabaslho de prevenção" />
 
                 </div>
