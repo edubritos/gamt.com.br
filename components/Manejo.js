@@ -52,16 +52,16 @@ const Manejo = () => (
             a segurança e a preservação gerando mínimo impacto possível.
         </p>
         <div className="imgManejo1 ">
-            <img src="./static/slider/24.jpg" alt="Vista aérea do morro do Tijuca Mirim" />
-            <img src="./static/slider/25.jpg" alt="Ninho de Tapitis emcontrados em trabaslho de prevenção" />
+            <img src="./static/slider/24.jpg" alt="Passada em área alagada" />
+            <img src="./static/slider/25.jpg" alt="Ponte em madeira" />
         </div>
         <div className="imgManejo1 ">
-            <img src="./static/slider/28.jpg" alt="Vista aérea do morro do Tijuca Mirim" />
-            <img src="./static/slider/29.jpg" alt="Ninho de Tapitis emcontrados em trabaslho de prevenção" />
+            <img src="./static/slider/28.JPG" alt="Construção de ponte pênsil" />
+            <img src="./static/slider/29.JPG" alt="Conclusão" />
         </div>
         <div className="imgManejo2 ">
-            <img src="./static/slider/26.jpg" alt="Vista aérea do morro do Tijuca Mirim" />
-            <img src="./static/slider/31.jpg" alt="Ninho de Tapitis emcontrados em trabaslho de prevenção" />
+            <img src="./static/slider/26.jpg" alt="Escada de mdaeira em terreno erodido" />
+            <img src="./static/slider/31.jpg" alt="Conclusão" />
         </div>
     </div >
 )
