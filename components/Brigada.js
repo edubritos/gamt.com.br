@@ -6,7 +6,7 @@ const Brigada = () => (
             O Combate e a prevenção a incêndios florestais são o conjunto de medidas
             tomadas no sentido de minimizar e previnir os riscos de ocorrência de
             incêndios incêndios florestais, por intermédio de sua completa extinção
-            ou de se impedir sua propagação, como por exemplo: construção de manutenção
+            ou de se impedir sua propagação, como por exemplo: construção e manutenção
             de aceiros, operação de sistemas de vigilância e detecção, monitoramento
             terrestres, estabelecimento de calendários de queima com os produtores rurais
             e um trabalho permanente de educação ambiental das populações entorno das
@@ -21,7 +21,7 @@ const Brigada = () => (
         <p>
             Atuamos veementemente na prevenção, controle, pré-supressão e combate a 
             incêndios no parque nacional da Tijuca há mais de dez anos, trabalhamos 
-            com monitoramento por drones de área sensíveis e mapeamento de áreas queimadas 
+            com monitoramento por drones de área sensíveis e mapeamento de áreas queimadas, 
             participamos em trabalhos de combate e prevenção em outras unidades de 
             conservação como por exemplo: 
             parque nacional da Serra dos Órgãos (RJ), parque nacional do Itatia (RJ), 
@@ -32,7 +32,7 @@ const Brigada = () => (
         </p>
         <div className="imgBrigada2">
             <img src="./static/slider/13.jpg" alt="Queima controlada de expansão" />
-            <img src="./static/slider/21.jpg" alt="Combate a incêndios florestais" />
+            <img src="./static/slider/21.jpg" alt="Monitoramento no PARNA Sempre Vivas (MG)" />
         </div>
         <p>
             Por <strong>prevenção</strong> entende-se como todas as medidas, normas ou atividades 

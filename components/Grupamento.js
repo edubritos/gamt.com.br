@@ -22,7 +22,7 @@ const Grupamento = () => (
                     O Grupamento Ambiental Macico da Tijuca é uma associação sem fins lucrativos, constituído em 09 de outubro de 2018,
                     tem por finalidade resgistrado no nosso estatudo o desenvolvimento econômico e socio ambiental e combate a pobreza;
                     a defesa preservação e conservação do meio ambiente e promoção do desenvolvimento sustentável;
-                    o combate e preservação de incêndios florestais em todo território nacional; a implantação, manejo e remanejo de trilhas;
+                    o combate e prevenção de incêndios florestais em todo território nacional; a implantação, manejo e remanejo de trilhas;
                     manejo de remanejo de fauna e flora florestais; o treinamento e capacitação profissional socioambiental;
                     e o desenvolvimento de pesquisa, normas técnicas e avaliação de tecnologias socioambientais.
                     Obedecendo os princípios da legalidade, impessoalidade, moralidade, publicidade, economicidade e da eficiência e não
