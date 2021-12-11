@@ -88,12 +88,12 @@ const Manejo = () => (
                 horizontal={false}
             />
             <Imagem
-                src="./static/slider/28.jpg"
+                src="./static/slider/28.JPG"
                 alt="Construção de ponte pênsil."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/29.jpg"
+                src="./static/slider/29.JPG"
                 alt="Conclusão de ponte pênsil."
                 horizontal={true}
             />

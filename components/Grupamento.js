@@ -32,7 +32,7 @@ const Grupamento = () => (
 
         <div className="img">
             <Imagem
-                src="./static/slider/17.JPG"
+                src="./static/slider/17.jpg"
                 alt="Vista aérea do morro do Tijuca Mirim"
                 horizontal={true}
             />
