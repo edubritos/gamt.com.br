@@ -1,3 +1,5 @@
+import Imagem from "./Imagem"
+
 const Car = () => (
     <div id="turismo">
         <h2 className="titles">Turismo</h2>
@@ -19,13 +21,27 @@ const Car = () => (
             <br />
         </p>
         <br />
-        <div className="imgManejo1 ">
-            <img src="./static/slider/pg3.jpg" alt="Vista aérea do morro do Tijuca Mirim" />
-            <img src="./static/slider/36.jpg" alt="Ninho de Tapitis emcontrados em trabaslho de prevenção" />
-        </div>
-        <div className="imgManejo1 ">
-            <img src="./static/slider/37.jpg" alt="Vista aérea do morro do Tijuca Mirim" />
-            <img src="./static/slider/38.jpg" alt="Ninho de Tapitis emcontrados em trabaslho de prevenção" />
+        <div className="img">
+            <Imagem
+                src="./static/slider/40.jpg"
+                alt="Vista do mirante da Cascatinha no setor floresta, parque nacional da Tijuca."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/36.jpg"
+                alt="Vista da Pedra Bonita para pedra da Gávea."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/37.jpg"
+                alt="Agulha do Diabo, vista do mirante do Inferno."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/38.jpg"
+                alt="Nascer do sol na Pedra o Sino."
+                horizontal={true}
+            />
         </div>
     </div>
 )

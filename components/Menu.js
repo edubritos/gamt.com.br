@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 const close = "../static/icons/close.png"
 const menu = "../static/icons/menu.png"
@@ -7,46 +7,50 @@ const menu = "../static/icons/menu.png"
 const Menu = () => {
   const [imageMenu, setImageMenu] = useState(menu)
   const [hideMenu, setHideMenu] = useState("submenu hide")
-  const [rotate, setRotate] = useState("rotate")
-  
+
   const handleClickMenu = () => {
     if (imageMenu === menu) {
       setImageMenu(close)
       setHideMenu("submenu")
-    } else{
+    } else {
       setImageMenu(menu)
       setHideMenu("submenu hide")
     }
-  }
-  const handleClickRotate = (props) => {
-    props.className = "rotate"
-    setRotate(props.className)
-    console.log(rotate)
   }
 
   return (
     <div>
       <Link href="#header" as="/">
         <a title="Topo">
-          <img 
-          className="logo" 
-          src="../static/icons/logo.png" 
-          width="100" height="100" 
-          alt="Logotipo" 
+          <img
+            className="logo"
+            src="../static/icons/logo.png"
+            width="100" height="100"
+            alt="Logotipo"
           />
         </a>
       </Link>
       <nav className="menu" >
-        <div className={hideMenu}>
-          <a id="menuimg" onClick={handleClickMenu}>
-            <img src={imageMenu} alt="Menu" className={rotate}/>
-          </a>
-          <a href="#navGrupamento" >GRUPAMENTO</a>
-          <a href="#navBrigada" >BRIGADA</a>
-          <a href="#navManejo" >MANEJO</a>
-          <a href="#navTurismo" >TURISMO</a>
-          <a href="#navContato" >CONTATO</a>
-        </div>
+        <ul className={hideMenu}>
+          <li id="menuimg"  onClick={handleClickMenu}>
+              <img src={imageMenu} alt="Menu" />
+          </li>
+          <li>
+            <a href="#navGrupamento" onClick={handleClickMenu}>GRUPAMENTO</a>
+          </li>
+          <li>
+            <a href="#navBrigada" onClick={handleClickMenu}>BRIGADA</a>
+          </li>
+          <li>
+            <a href="#navManejo" onClick={handleClickMenu}>MANEJO</a>
+          </li>
+          <li>
+            <a href="#navTurismo" onClick={handleClickMenu}>TURISMO</a>
+          </li>
+          <li>
+            <a href="#navContato" onClick={handleClickMenu}>CONTATO</a>
+          </li>
+        </ul>
       </nav>
     </div>
   )

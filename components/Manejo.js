@@ -1,3 +1,5 @@
+import Imagem from "./Imagem"
+
 const Manejo = () => (
 
     <div id="manejo">
@@ -23,45 +25,88 @@ const Manejo = () => (
             dificuldade (caminhada leve, moderada e pesada) e quanto à
             declividade do relevo (ascendentes, descendentes ou irregulares).
         </p>
-        <div className="imgManejo1 ">
-            <img src="./static/slider/35.jpg" alt="Sinalização de trilhas" />
-            <img src="./static/slider/18.jpg" alt="Reaproveitamento de madeira caída." />
+        <div className="img">
+            <Imagem
+                src="./static/slider/35.jpg"
+                alt="Sinalização de trilhas."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/18.jpg"
+                alt="Reaproveitamento de madeira caída."
+                horizontal={true}
+            />
         </div>
         <h5>Profissionais capacitados</h5>
         <p>
-            Profissionais treinados e capacitados em área florestal, especializados em 
-            manejo de epécies exóticas, manejo de animais silvestres, manejo e 
-            poda arbórea, limpeza de áreas, replantio, recuperação de áreas degradadas, 
+            Profissionais treinados e capacitados em área florestal, especializados em
+            manejo de epécies exóticas, manejo de animais silvestres, manejo e
+            poda arbórea, limpeza de áreas, replantio, recuperação de áreas degradadas,
             entre outras.
         </p>
-        <div className="imgManejo1 ">
-            <img src="./static/slider/32.jpg" alt="Remoção de abelhas com e sem ferrão" />
-            <img src="./static/slider/33.jpg" alt="Treinamento em primeiros socorros." />
+        <div className="img">
+            <Imagem
+                src="./static/slider/32.jpg"
+                alt="Remoção de abelhas com e sem ferrão."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/33.jpg"
+                alt="Treinamento em primeiros socorros."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/34.jpg"
+                alt="Podas arbóreas."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/15.jpg"
+                alt="Tratamento de madeira para móveis rústicos."
+                horizontal={true}
+            />
         </div>
-        <div className="imgManejo1 ">
-            <img src="./static/slider/34.jpg" alt="Podas arbóres" />
-            <img src="./static/slider/15.jpg" alt="Tratamento de madeira." />
-        </div>
+        
         <h5>Construção de estruturas</h5>
         <p>
-            Ao decorrer do trabalho de manejo de trilha para que possa haver 
-            um equilíbrio entre a visitação, manutenção e preservação, em trechos 
-            alagados, erodidos, em tranposição de rios ou riachos, trechos com difícil acesso, existem estruturas 
-            que facilitam o acesso a visitação, como por excemplo: pontes, escadas, passadas, mirantes, 
-            facilitadores (correntes, cabos de aço, degraus), essas estruturas garantem 
+            Ao decorrer do trabalho de manejo de trilha para que possa haver
+            um equilíbrio entre a visitação, manutenção e preservação, em trechos
+            alagados, erodidos, em tranposição de rios ou riachos, trechos com difícil acesso, existem estruturas
+            que facilitam o acesso a visitação, como por excemplo: pontes, escadas, passadas, mirantes,
+            facilitadores (correntes, cabos de aço, degraus), essas estruturas garantem
             a segurança e a preservação gerando mínimo impacto possível.
         </p>
-        <div className="imgManejo1 ">
-            <img src="./static/slider/24.jpg" alt="Passada em área alagada" />
-            <img src="./static/slider/25.jpg" alt="Ponte em madeira" />
-        </div>
-        <div className="imgManejo1 ">
-            <img src="./static/slider/28.JPG" alt="Construção de ponte pênsil" />
-            <img src="./static/slider/29.JPG" alt="Conclusão" />
-        </div>
-        <div className="imgManejo2 ">
-            <img src="./static/slider/26.jpg" alt="Escada de mdaeira em terreno erodido" />
-            <img src="./static/slider/31.jpg" alt="Conclusão" />
+        <div className="img">
+            <Imagem
+                src="./static/slider/24.jpg"
+                alt="Passada em área alagada."
+                horizontal={false}
+            />
+            <Imagem
+                src="./static/slider/25.jpg"
+                alt="Ponte em madeira."
+                horizontal={false}
+            />
+            <Imagem
+                src="./static/slider/28.jpg"
+                alt="Construção de ponte pênsil."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/29.jpg"
+                alt="Conclusão de ponte pênsil."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/26.jpg"
+                alt="Escada de madeira em terreno erodido."
+                horizontal={true}
+            />
+            <Imagem
+                src="./static/slider/31.jpg"
+                alt="Conclusão de estrutura."
+                horizontal={false}
+            />
         </div>
     </div >
 )

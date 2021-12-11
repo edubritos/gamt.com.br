@@ -6,10 +6,10 @@ const Contato = () => (
             tire suas dúvidas!
         </p>
         <div className="icons">
-            <a href="https://www.facebook.com/gamt_rj/" target="_blank">
+            <a href="https://fb.me/gamtrj/" target="_blank">
                 <img src="../static/icons/facebook.png" height="80" width="80" alt="Facebook" />
             </a>
-            <a href="https://instagram.com/gamt_rj" target="_blank">
+            <a href="https://instagram.com/gamt_rj/" target="_blank">
                 <img src="../static/icons/insta.png" height="80" width="80" alt="Twitter" />
             </a>
             <a href="mailto:gamtrj@gmail.com" target="_blank">

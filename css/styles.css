@@ -3,18 +3,6 @@
   src: local('RobotoMono'), url(../fonts/RobotoMono-Thin.ttf)format('truetype');
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 * {
   margin: 0px;
   padding: 0px;
@@ -43,7 +31,7 @@ nav.menu {
   z-index: 5;
 }
 
-a#menuimg {
+li#menuimg {
   display: none;
 }
 
@@ -59,9 +47,8 @@ a#menuimg {
   transition: 0.4s;
 }
 
-.menu .submenu a {
-  height: 90%;
-
+.menu .submenu li a {
+  height: 80px;
   color: #222;
   font-size: 20px;
   font-weight: 400;
@@ -75,10 +62,11 @@ a#menuimg {
   transition: 0.4s;
 }
 
-nav.menu a:hover {
-  background-color: rgba(3, 3, 3, 0.3);
-  height: 85%;
+.menu ul li:hover {
+  background-color: rgba(3, 3, 3, 0.2);
+  height: 80px;
   border-radius: 5px;
+  transition: 0.4s;
 }
 .logo {
   position: fixed;
@@ -100,7 +88,7 @@ nav.menu a:hover {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#container {
+#conteudo {
   width: 90%;
   margin: auto;
 }
@@ -116,58 +104,46 @@ nav.menu a:hover {
   margin: 10px;
 }
 
-#grupamento, #brigada, #manejo, #contato {
+#grupamento, #brigada, #manejo, #turismo, #contato {
   text-align: justify;
-  padding: 0 10px;
+  width: 90%;
+  margin: auto;
+}
+/* imagens */
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  /* width: 800px; */
+}
+
+/* fotos horizantais */
+.img .imgHorizontal, .img .imgVertical{
+  width: 400px;
+  padding: 0 20px;
+  border-radius: 4em;
+  margin: 10px 0;
+}
+
+/* fotos verticais */
+.img .imgVertical {
+  width: 300px;
+}
+.img div{
+  display: flex;
+  flex-direction: column;
+}
+.img span{
+  align-self: center;
+  font-size: 12px;
 }
 
 /* Grupamento ******************************************* */
 
-#grupamento li {
-  list-style-type: none;
-  padding: 20px;
-}
 
-#grupamento .imgGrupamento1, .imgGrupamento2 {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-  flex-wrap: wrap;
-}
-
-#grupamento .imgGrupamento1 img {
-  width: 400px;
-  background-size: contain;
-  padding: 0 20px;
-  border-radius: 4em;
-  margin: 10px 0;
-}
-
-#grupamento .imgGrupamento2 img {
-  width: 300px;
-  margin: 10px 0;
-  padding: 0 20px;
-  border-radius: 4em;
-}
-
-/* #grupamento .imgGrupamento2 img:nth-child(2) {
-  width: 200px;
-} */
-
-/* Brigada ************************************************* */
-
-#brigada {
-  width: 90%;
-  margin: auto;
-}
-
-#brigada .br {
-  text-align: center;
-}
-
-#brigada p {
-  text-align: justify;
-}
+/* Brigada ********************************************** */
 
 #brigada .parceiras {
   display: flex;
@@ -177,117 +153,19 @@ nav.menu a:hover {
   flex-wrap: wrap;
   border-radius: 3em;
   border: solid 2px rgba(3, 3, 3, 0.2);
+  background-color: rgba(3, 3, 3, 0.2);
 }
 
 #brigada .parceiras a img {
   margin: 10px;
-}
-
-.border {
   border-radius: 1em;
-}
-
-#brigada .imgBrigada1, .imgBrigada2 {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-  flex-wrap: wrap;
-}
-
-#brigada .imgBrigada1 img {
-  width: 400px;
-  background-size: contain;
-  padding: 0 20px;
-  border-radius: 4em;
-  margin: 10px 0;
-}
-#brigada .imgBrigada2 img {
-  width: 400px;
-  margin: 10px 0;
-  padding: 0 20px;
-  border-radius: 4em;
 }
 
 /* Manejo *************************************************** */
 
-#manejo, #car {
-  margin: 0 2%;
-}
-#manejo .imgManejo1, .imgManejo2 {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-  flex-wrap: wrap;
-}
 
-#manejo .imgManejo1 img {
-  width: 400px;
-  background-size: contain;
-  padding: 0 20px;
-  border-radius: 4em;
-  margin: 10px 0;
-}
-#manejo .imgManejo2 img {
-  width: 400px;
-  margin: 10px 0;
-  padding: 0 20px;
-  border-radius: 4em;
-}
-#manejo .imgManejo2 img:nth-child(1) {
-  /* width: 500px; */
-  height: 300px;
-  padding: 0 20px;
-  border-radius: 4em;
-  margin: auto 0;
-}
+/* Turismo ************************************************** */
 
-/* Turismo **************************************************** */
-
-#turismo .turismoimg {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  align-items: center;
-  margin: auto;
-}
-
-#turismo .turismoimg img {
-  margin: 40% 0;
-  border-radius: 10%;
-}
-
-#turismo .profile {
-  display: flex;
-}
-
-#turismo .profile ul {
-  margin: 20px;
-}
-
-#turismo .profile p {
-  margin: 20px 20px;
-}
-
-#turismo .imgManejo1, .imgManejo2 {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-  flex-wrap: wrap;
-}
-
-#turismo .imgManejo1 img {
-  width: 400px;
-  background-size: contain;
-  padding: 0 20px;
-  border-radius: 4em;
-  margin: 10px 0;
-}
-#turismo .imgManejo2 img {
-  width: 400px;
-  margin: 10px 0;
-  padding: 0 20px;
-  border-radius: 4em;
-}
 
 /* Contato ************************************************** */
 
@@ -334,8 +212,8 @@ nav.menu a:hover {
 /* @medias ******************************************************* */
 @media (max-width: 1008px) {
   nav.menu .submenu a {
-    width: 100px;
-    font-size: 16px;
+    width: 120px;
+    font-size: 17px;
     margin: 0;
   }
 }
@@ -346,74 +224,69 @@ nav.menu a:hover {
     height: 80px;
     top: 10px;
   }
+  .hide {
+    overflow: hidden;
+  }
   .menu {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
   .menu .submenu {
-    flex-wrap: wrap;
     width: 120px;
-    margin-left: 10%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
-  .menu .hide {
-    overflow: hidden;
-  }
-  .menu .submenu a {
-    font-size: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
-    width: 100%;
-  }
-  .menu .submenu a:hover {
+  .menu .submenu li a:hover {
     background-color: rgba(255, 255, 255, 0.5);
     transform: scale(1.0);
+    height: 100%;
   }
-  a#menuimg {
+  .menu ul{
+    margin: 0;
+  }
+  li#menuimg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: 0 18px;
+    height: 80px;
+    width: 120px;
     background-color: rgba(0, 0, 0, 0);
   }
-  
-  #grupamento .imgpl1 {
-    flex-wrap: wrap;
-  }
-  #grupamento .imgpl1 img, #grupamento .imgGrupamento2 img, #grupamento .imgGrupamento2 img:nth-child(2) {
-    width: 90%;
-    margin: 10px 0;
-  }
-  #manejo {
-    margin: 0;
-  }
-  #manejo .profile {
-    flex-direction: column;
-  }
-  #manejo .profile img {
+  .menu ul li {
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s;
+    display: flex;
     justify-content: center;
-    margin: auto;
-    width: 250px;
-    height: 300px;
-  }
-  #turismo {
+    align-items: center;
+    height: 80px;
     margin: 0;
   }
-  #turismo .profile {
-    display: block;
+  .img {
+    width: 90%;
   }
-  #turismo .profile img {
-    margin: 10px 0;
+  .titles {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 26px;
+  }
+  .img .imgHorizontal {
+    width: 90%;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 1em;
+  }
+  .img .imgVertical{
+    width: 80%;
+    border-radius: 2em;
   }
 }
 
 @media (max-width:310px) {
-  #brigada .parceiras img, #manejo .profile img, #turismo .turismoimg img {
-    height: 90%;
-    width: 90%;
-  }
-  #manejo .profile p, #brigada p, #turismo .profile p {
-    margin: 0;
+  .titles{
+    font-size: 18px;
   }
   .logo {
     width: 50px;

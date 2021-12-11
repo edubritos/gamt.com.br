@@ -10,7 +10,7 @@ const Main = () => (
   <div id="main" >
     <Header />
 
-    <div id="container">
+    <div id="conteudo">
       <i id="navGrupamento" />
       <Grupamento />
       <i id="navBrigada" />
