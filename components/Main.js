@@ -11,15 +11,10 @@ const Main = () => (
     <Header />
 
     <div id="conteudo">
-      <i id="navGrupamento" />
       <Grupamento />
-      <i id="navBrigada" />
       <Brigada />
-      <i id="navManejo" />
       <Manejo />
-      <i id="navTurismo" />
       <Turismo />
-      <i id="navContato" />
       <Contato />
     </div>
     <Footer />

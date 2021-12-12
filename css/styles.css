@@ -16,11 +16,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#navGrupamento:focus, #navBrigada, #navManejo, #navTurismo, #navContato {
-  display: hidden;
-  margin: 20% 0;
-}
-
 /* Menu *************************************** */
 nav.menu {
   background-color: rgba(255, 255, 255, 0.7);

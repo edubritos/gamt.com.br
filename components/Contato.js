@@ -3,7 +3,7 @@ const Contato = () => (
         <h2 className="titles">Contato</h2>
         <p>
             Entre em contato por e-mail, telefone, Whatasapp ou redes sociais e 
-            tire suas dúvidas!
+            converse conosco!
         </p>
         <div className="icons">
             <a href="https://fb.me/gamtrj/" target="_blank">

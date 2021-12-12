@@ -6,8 +6,8 @@ const Brigada = () => (
         <h5 className="subtitle">Combate a Incêndios Florestais</h5>
         <p>
             O Combate e a prevenção a incêndios florestais são o conjunto de medidas
-            tomadas no sentido de minimizar e previnir os riscos de ocorrência de
-            incêndios incêndios florestais, por intermédio de sua completa extinção
+            tomadas no sentido de minimizar e prevenir os riscos de ocorrência de
+            incêndios florestais, por intermédio de sua completa extinção
             ou de se impedir sua propagação, como por exemplo: construção e manutenção
             de aceiros, operação de sistemas de vigilância e detecção, monitoramento
             terrestres, estabelecimento de calendários de queima com os produtores rurais
@@ -34,7 +34,7 @@ const Brigada = () => (
             com monitoramento por drones de área sensíveis e mapeamento de áreas queimadas,
             participamos em trabalhos de combate e prevenção em outras unidades de
             conservação como por exemplo:
-            parque nacional da Serra dos Órgãos (RJ), parque nacional do Itatia (RJ),
+            parque nacional da Serra dos Órgãos (RJ), parque nacional do Itatiaia (RJ),
             parque estadual Serra do Papagaio (MG), parque nacional Sempre Vivas (MG),
             parque nacional do Mato Grosso (MS) entre outros.
             Temos brigadas apostas 24h prontas para um eventual acionamento a incêndio

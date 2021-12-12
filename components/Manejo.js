@@ -7,15 +7,15 @@ const Manejo = () => (
         <h5 className="subtitle">A importância do manejo de trilhas</h5>
         <p>
             O Ecoturismo e as demais atividades praticadas junto a natureza
-            tendem a se massificar, gerando como conseqüência o aumento do
+            tendem a se massificar, gerando como consequência o aumento do
             impacto e a descaracterização de muitos atrativos, tanto pelo
-            aumento das infra-estruturas de suporte, quanto da perda da
+            aumento das infraestruturas de suporte, quanto da perda da
             biodiversidade e das características responsáveis pela vocação
             ecoturística local.
             <br /><br />
             As trilhas são caminhos existentes ou estabelecidos, com diferentes
             formas, comprimentos e larguras, que possuam o objetivo aproximar o
-            visitante ao ambiente natural, ou conduzí-lo a um atrativo
+            visitante ao ambiente natural, ou conduzi-lo a um atrativo
             específico, possibilitando seu entretenimento ou educação através
             de sinalizações ou de recursos interpretativos.
             <br /><br />
@@ -40,7 +40,7 @@ const Manejo = () => (
         <h5>Profissionais capacitados</h5>
         <p>
             Profissionais treinados e capacitados em área florestal, especializados em
-            manejo de epécies exóticas, manejo de animais silvestres, manejo e
+            manejo de espécies exóticas, manejo de animais silvestres, manejo e
             poda arbórea, limpeza de áreas, replantio, recuperação de áreas degradadas,
             entre outras.
         </p>
@@ -71,8 +71,8 @@ const Manejo = () => (
         <p>
             Ao decorrer do trabalho de manejo de trilha para que possa haver
             um equilíbrio entre a visitação, manutenção e preservação, em trechos
-            alagados, erodidos, em tranposição de rios ou riachos, trechos com difícil acesso, existem estruturas
-            que facilitam o acesso a visitação, como por excemplo: pontes, escadas, passadas, mirantes,
+            alagados, erodidos, em transposição de rios ou riachos, trechos com difícil acesso, existem estruturas
+            que facilitam o acesso a visitação, como por exemplo: pontes, escadas, passadas, mirantes,
             facilitadores (correntes, cabos de aço, degraus), essas estruturas garantem
             a segurança e a preservação gerando mínimo impacto possível.
         </p>

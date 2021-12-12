@@ -20,7 +20,7 @@ const Menu = () => {
 
   return (
     <div>
-      <Link href="#header" as="/">
+      <Link href="/" as="/">
         <a title="Topo">
           <img
             className="logo"
@@ -32,23 +32,23 @@ const Menu = () => {
       </Link>
       <nav className="menu" >
         <ul className={hideMenu}>
-          <li id="menuimg"  onClick={handleClickMenu}>
-              <img src={imageMenu} alt="Menu" />
+          <li id="menuimg" onClick={handleClickMenu}>
+            <img src={imageMenu} alt="Menu" />
           </li>
           <li>
-            <a href="#navGrupamento" onClick={handleClickMenu}>GRUPAMENTO</a>
+            <a href="#grupamento" onClick={handleClickMenu}>GRUPAMENTO</a>
           </li>
           <li>
-            <a href="#navBrigada" onClick={handleClickMenu}>BRIGADA</a>
+            <a href="#brigada" as="/" onClick={handleClickMenu}>BRIGADA</a>
           </li>
           <li>
-            <a href="#navManejo" onClick={handleClickMenu}>MANEJO</a>
+            <a href="#manejo" onClick={handleClickMenu}>MANEJO</a>
           </li>
           <li>
-            <a href="#navTurismo" onClick={handleClickMenu}>TURISMO</a>
+            <a href="#turismo" onClick={handleClickMenu}>TURISMO</a>
           </li>
           <li>
-            <a href="#navContato" onClick={handleClickMenu}>CONTATO</a>
+            <a href="#contato" onClick={handleClickMenu}>CONTATO</a>
           </li>
         </ul>
       </nav>
