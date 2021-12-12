@@ -30,7 +30,7 @@ const Grupamento = () => (
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/sempre-vivas.jpg"
+                src="./static/slider/sempre-vivas.JPG"
                 alt="Combate a incêndios - Parna Sempre Vivas."
                 horizontal={true}
             />
