@@ -19,6 +19,45 @@ const Contato = () => (
                 <img src="../static/icons/whatsapp.png" height="95" width="95" alt="Whatasapp" />
             </a>
         </div>
+        <h4 className="subtitle" style={{textAlign:"center"}}>Apoio</h4>
+        <div className="parceiras">
+            <a href="https://www.icmbio.gov.br/portal/" >
+                <img src="../static/icons/icmbio.jpg" 
+                height="100" 
+                alt="Instituto Chico Mendes da Biodiversidade" 
+                 />
+            </a>
+            <a href="https://prefeitura.rio/">
+                <img src="../static/icons/prefeitura-rio.png" 
+                height="100" 
+                alt="Prefeitura do Rio"
+                className="border" />
+            </a>
+            <a href="http://www.inea.rj.gov.br/">
+                <img src="../static/icons/inea.jpg" 
+                height="100" 
+                alt="Inea" 
+                />
+            </a>
+            <a href="http://mosaico-carioca.blogspot.com/">
+                <img src="../static/icons/mosaico-carioca.png" 
+                height="100" 
+                alt="Mosaico Carioca"
+                />
+            </a>
+            <a href="https://www.instagram.com/ibs_bikes/">
+                <img src="../static/icons/ibs.jpg" 
+                height="100" 
+                alt="IBS" 
+                />
+            </a>
+            <a href="https://parquenacionaldatijuca.rio/">
+                <img src="../static/icons/pnt.png" 
+                height="100" 
+                alt="Parque Nacional da Tijuca" 
+                />
+            </a>
+        </div>
     </div>
 )
 

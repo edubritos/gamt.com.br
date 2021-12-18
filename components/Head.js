@@ -2,7 +2,7 @@ import NextHead from 'next/head';
 import { string } from 'prop-types';
 
 const defaultDescription = 'Combate e prevenção a incêndios florestais';
-const defaultKeywords = 'incêndios florestal combate prevenção replantio reflorestamento recuperação áreas degradadas fogo poda trilhas tijuca';
+const defaultKeywords = 'gamt, incêndios, florestal, combate prevenção replantio reflorestamento recuperação áreas degradadas fogo poda trilhas tijuca';
 const defaultOGURL = 'http://www.gamt.com.br';
 const defaultOGImage = '../static/icons/logo.png';
 

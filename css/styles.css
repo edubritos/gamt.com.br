@@ -140,21 +140,6 @@ li#menuimg {
 
 /* Brigada ********************************************** */
 
-#brigada .parceiras {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 0;
-  flex-wrap: wrap;
-  border-radius: 3em;
-  border: solid 2px rgba(3, 3, 3, 0.2);
-  background-color: rgba(3, 3, 3, 0.2);
-}
-
-#brigada .parceiras a img {
-  margin: 10px;
-  border-radius: 1em;
-}
 
 /* Manejo *************************************************** */
 
@@ -181,6 +166,22 @@ li#menuimg {
 
 #contato .icons img {
   margin-top: 10px;
+}
+
+.parceiras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  border-radius: 3em;
+  border: solid 2px rgba(3, 3, 3, 0.2);
+  background-color: rgba(3, 3, 3, 0.2);
+}
+
+ .parceiras a img {
+  margin: 10px;
+  border-radius: 1em;
 }
 
 /* Footer **************************************************** */
@@ -266,6 +267,7 @@ li#menuimg {
   }
   .subtitle {
     font-size: 26px;
+    text-align: center;
   }
   .img .imgHorizontal {
     width: 90%;

@@ -37,7 +37,7 @@ const Manejo = () => (
                 horizontal={true}
             />
         </div>
-        <h5>Profissionais capacitados</h5>
+        <h5 className="subtitle">Profissionais capacitados</h5>
         <p>
             Profissionais treinados e capacitados em área florestal, especializados em
             manejo de espécies exóticas, manejo de animais silvestres, manejo e
@@ -67,7 +67,7 @@ const Manejo = () => (
             />
         </div>
         
-        <h5>Construção de estruturas</h5>
+        <h5 className="subtitle">Construção de estruturas</h5>
         <p>
             Ao decorrer do trabalho de manejo de trilha para que possa haver
             um equilíbrio entre a visitação, manutenção e preservação, em trechos

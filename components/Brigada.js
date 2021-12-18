@@ -82,46 +82,6 @@ const Brigada = () => (
             />
         </div>
 
-        <h4 className="subtitle" style={{textAlign:"center"}}>Apoio</h4>
-        <div className="parceiras">
-            <a href="" >
-                <img src="../static/icons/icmbio.jpg" 
-                height="100" 
-                alt="Instituto Chico Mendes da Biodiversidade" 
-                 />
-            </a>
-            <a href="">
-                <img src="../static/icons/prefeitura-rio.png" 
-                height="100" 
-                alt="Prefeitura do Rio"
-                className="border" />
-            </a>
-            <a href="">
-                <img src="../static/icons/inea.jpg" 
-                height="100" 
-                alt="Inea" 
-                />
-            </a>
-            <a href="">
-                <img src="../static/icons/mosaico-carioca.png" 
-                height="100" 
-                alt="Mosaico Carioca"
-                />
-            </a>
-            <a href="">
-                <img src="../static/icons/ibs.jpg" 
-                height="100" 
-                alt="IBS" 
-                />
-            </a>
-            <a href="www.parquenacionaldatijuca.com.br">
-                <img src="../static/icons/pnt.png" 
-                height="100" 
-                alt="Parque Nacional da Tijuca" 
-                />
-            </a>
-        </div>
-
     </div>
 )
 

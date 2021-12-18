@@ -6,7 +6,7 @@ const Grupamento = () => (
         <h1 className="titles">Grupamento Ambiental Maciço da Tijuca</h1>
         <h3 className="subtitle"> GAMT - RJ</h3>
         <p>
-            O (G A M T) Grupamento Ambiental Maciço da Tijuca, é um grupo de profissionais especializados com
+            O Grupamento Ambiental Maciço da Tijuca (GAMT), é composto por profissionais especializados com
             ampla experiência em uma gama de temas envolvendo o meio ambiente, atuamos principalmente nas áreas de
             Combate e prevenção a incêndios florestais, educação ambiental, manejo,
             manutenção, elaboração, implementação e sinalização de trilhas, manejo de espécies
@@ -46,7 +46,7 @@ const Grupamento = () => (
             />
             <Imagem
                 src="./static/slider/pantanal.jpg"
-                alt="Apoio aos incêndios do Pantanal."
+                alt="Apoio no combate aos incêndios do Pantanal."
                 horizontal={true}
             />
         </div>

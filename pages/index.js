@@ -7,7 +7,7 @@ const index = () => (
     <Head
       title="GAMT"
       description="Combate e prevenção a incêndios florestais, recuperação de áreas degradadas, manejo de trilhas, fauna e espécies exóticas."
-      keywords="incêndios florestal combate prevenção replantio reflorestamento recuperação áreas degradadas fogo poda trilhas tijuca"
+      keywords="gamt, gamt.com.br, manejo, incêndios, florestal, combate, prevenção, replantio, reflorestamento, recuperação, áreas degradadas, fogo, poda, trilhas, tijuca"
       url="http://www.gamt.com.br"
       ogImage="../static/icons/logo.png"
     />
