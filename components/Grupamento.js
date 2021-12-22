@@ -6,89 +6,91 @@ const Grupamento = () => (
         <h1 className="titles">Grupamento Ambiental Maciço da Tijuca</h1>
         <h3 className="subtitle"> GAMT - RJ</h3>
         <p>
-            O Grupamento Ambiental Maciço da Tijuca (GAMT), é composto por profissionais especializados com
-            ampla experiência em uma gama de temas envolvendo o meio ambiente, atuamos principalmente nas áreas de
-            Combate e prevenção a incêndios florestais, educação ambiental, manejo,
-            manutenção, elaboração, implementação e sinalização de trilhas, manejo de espécies
-            exóticas de fauna e flora, construção de estruturas em ambientes naturais como pontes,
-            mirantes, decks, escadas entre outras.
+            O Grupamento Ambiental Maciço da Tijuca (GAMT) é uma associação sem fins lucrativos na
+            forma jurídica de organização da sociedade civil, constituída em outubro de 2018, voltada
+            para preservação ambiental e manejo sustentável, é composta por profissionais especializados
+            com ampla experiência prática em desenvolver projetos envolvendo o meio ambiente, com foco
+            nas áreas: de combate e prevenção a incêndios florestais; educação ambiental; formação de
+            brigadistas e equipes de manejo de trilha; manejo sustentável; manutenção, elaboração, implementação
+            e sinalização de trilhas; manejo de espécies nativas e exóticas de fauna e flora; construção
+            de estruturas em ambientes naturais; instalação de facilitadores em trilha; construção de pontes
+            mirantes, decks, escadas, passagens em áreas alagadas entre outras.
             <br />
-            Experiência comprovada de muitos anos trabalhando em parques referência em todo território nacional
-            a exemplo no Parque Nacional da Tijuca, Parque Nacional de Itatiaia, Serra dos Órgãos, Pantanal, Sempre Vivas
-            Marinho de Fernando de Noronha, Caparaó, Serra da Canastra, Serra do Cipó, entre outros.
-
+            Experiência comprovada em muitos anos trabalhando em parques referência em todo território nacional
+            a exemplo no Parque Nacional da Tijuca, Parque Nacional de Itatiaia, Serra dos Órgãos, Parque Nacional
+            do Pantanal Matogrossense, Parque Nacional Sempre Vivas, Parque Nacional Marinho de Fernando de Noronha,
+            Parque Nacional do Caparaó, Parque Nacional da Serra da Canastra, Parque Nacional da Serra do Cipó, entre
+            outras unidades federais, estaduais e municipais.
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/noronha-praia.jpg"
+                src="./static/images/noronha-praia-mini.jpg"
                 alt="Manejo de trilha - Fernando de Noronha."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/canastra-cachoeira.jpg"
+                src="./static/images/canastra-cachoeira-mini.jpg"
                 alt="Manejo de trilha - Serra da Canastra."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/sempre-vivas.JPG"
+                src="./static/images/sempre-vivas-mini.JPG"
                 alt="Combate a incêndios - Parna Sempre Vivas."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/serra-cipo.jpg"
+                src="./static/images/serra-cipo-mini.jpg"
                 alt="Incêndios debelados em 10/2020 - Serra do Cipó."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/itatiaia.jpg"
+                src="./static/images/itatiaia-mini.jpg"
                 alt="Manejo, combate e monitoramento - Parna Itatiaia."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/pantanal.jpg"
+                src="./static/images/pantanal-mini.jpg"
                 alt="Apoio no combate aos incêndios do Pantanal."
                 horizontal={true}
             />
         </div>
         <p>
-            O Grupamento Ambiental Maciço da Tijuca é uma associação sem fins lucrativos, constituído em 09 de outubro de 2018 e 
-            tem por finalidade registrado em nosso estatuto:<br />
-            O desenvolvimento econômico e socio ambiental e combate a pobreza;<br />
-            A defesa preservação e conservação do meio ambiente e promoção do desenvolvimento sustentável;<br />
-            O combate e prevenção de incêndios florestais; a implantação, manejo e remanejo de trilhas;<br />
-            Manejo de remanejo de fauna e flora florestais; o treinamento e capacitação profissional socioambiental;<br />
-            O desenvolvimento de pesquisa, normas técnicas e avaliação de tecnologias socioambientais.<br />
-            Obedecendo os princípios da legalidade, impessoalidade, moralidade, publicidade, economicidade e da eficiência e não
-            fará qualquer discriminação de raça, cor gênero ou religião.
+            O grupamento se dedica as atividades mediante execução direta de projetos, programas,
+            planos de ações correlatas e por meio da doação de recursos físicos, materiais, humanos
+            e financeiros, ou ainda pela prestação de serviços intermediários de apoio a outras
+            organizações sem fins lucrativos e a órgãos do setor público que atuem em áreas afins.
             <br />
         </p>
 
         <div className="img">
             <Imagem
-                src="./static/slider/17.jpg"
+                src="./static/images/17-mini.jpg"
                 alt="Vista aérea do morro do Tijuca Mirim"
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/19.jpg"
+                src="./static/images/19-mini.jpg"
                 alt="Ninho de Tapitis encontrados em trabalhos de prevenção"
                 horizontal={true}
             />
         </div>
         <p>
-            A associação se dedica às suas atividades mediante execução direta de projetos, programas, planos de ações
-            correlatas e por meio da doação de recursos físicos, materiais, humanos e financeiros, ou ainda pela prestação
-            de serviços intermediários de apoio a outras organizações sem fins lucrativos e a órgãos do setor público que atuem em áreas afins.
+            Atuante principalmente no Parque Nacional da Tijuca que é maior unidade de conservação
+            em meio urbano do mundo, onde, inicialmente foi formada a experiência dos profissionais,
+            que durante anos, aprenderam e desenvolveram técnicas de manejo de trilhas sustentáveis,
+            criando métricas próprias, orientadas pelo serviço florestal dos Estados Unidos e
+            orientações dos órgãos competentes, aplicando-as em várias outras unidades de conservação 
+            que nos permitiu adquirir experiência em outros biomas brasileiros além da mata atlântica.
         </p>
 
         <div className="img">
             <Imagem
-                src="./static/slider/8.jpg"
+                src="./static/images/8-mini.jpg"
                 alt="Preguiça recolhida em via e solta em floresta"
                 horizontal={false}
             />
             <Imagem
-                src="./static/slider/20.jpg"
+                src="./static/images/20-mini.jpg"
                 alt="Acompanhamento e suporte a pesquisas"
                 horizontal={false}
             />

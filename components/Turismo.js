@@ -1,6 +1,6 @@
 import Imagem from "./Imagem"
 
-const Car = () => (
+const Turismo = () => (
     <div id="turismo">
         <h2 className="titles">Turismo</h2>
         <h4 className="subtitle">Guiamentos</h4>
@@ -23,22 +23,22 @@ const Car = () => (
         <br />
         <div className="img">
             <Imagem
-                src="./static/slider/40.jpg"
+                src="./static/images/40-mini.jpg"
                 alt="Vista do mirante da Cascatinha no setor floresta, parque nacional da Tijuca."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/36.jpg"
+                src="./static/images/36-mini.jpg"
                 alt="Vista da Pedra Bonita para pedra da Gávea."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/37.jpg"
+                src="./static/images/37-mini.jpg"
                 alt="Agulha do Diabo, vista do mirante do Inferno."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/38.jpg"
+                src="./static/images/38-mini.jpg"
                 alt="Nascer do sol na Pedra o Sino."
                 horizontal={true}
             />
@@ -46,4 +46,4 @@ const Car = () => (
     </div>
 )
 
-export default Car
+export default Turismo

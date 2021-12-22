@@ -27,12 +27,12 @@ const Manejo = () => (
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/35.jpg"
+                src="./static/images/35-mini.jpg"
                 alt="Sinalização de trilhas."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/18.jpg"
+                src="./static/images/18-mini.jpg"
                 alt="Reaproveitamento de madeira caída."
                 horizontal={true}
             />
@@ -46,22 +46,22 @@ const Manejo = () => (
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/32.jpg"
+                src="./static/images/32-mini.jpg"
                 alt="Remoção de abelhas com e sem ferrão."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/33.jpg"
+                src="./static/images/33-mini.jpg"
                 alt="Treinamento em primeiros socorros."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/34.jpg"
+                src="./static/images/34-mini.jpg"
                 alt="Podas arbóreas."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/15.jpg"
+                src="./static/images/15-mini.jpg"
                 alt="Tratamento de madeira para móveis rústicos."
                 horizontal={true}
             />
@@ -78,32 +78,32 @@ const Manejo = () => (
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/24.jpg"
+                src="./static/images/24-mini.jpg"
                 alt="Passada em área alagada."
                 horizontal={false}
             />
             <Imagem
-                src="./static/slider/25.jpg"
+                src="./static/images/25-mini.jpg"
                 alt="Ponte em madeira."
                 horizontal={false}
             />
             <Imagem
-                src="./static/slider/28.JPG"
+                src="./static/images/28-mini.jpg"
                 alt="Construção de ponte pênsil."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/29.JPG"
+                src="./static/images/29-mini.jpg"
                 alt="Conclusão de ponte pênsil."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/26.jpg"
+                src="./static/images/26-mini.jpg"
                 alt="Escada de madeira em terreno erodido."
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/31.jpg"
+                src="./static/images/31-mini.jpg"
                 alt="Conclusão de estrutura."
                 horizontal={false}
             />

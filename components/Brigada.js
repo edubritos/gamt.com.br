@@ -17,12 +17,12 @@ const Brigada = () => (
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/16.jpg"
+                src="./static/images/16-mini.jpg"
                 alt="Trabalhos conjuntos"
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/10.jpg"
+                src="./static/images/10-mini.jpg"
                 alt="Área queimada"
                 horizontal={true}
             />
@@ -42,12 +42,12 @@ const Brigada = () => (
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/13.jpg"
+                src="./static/images/13-mini.jpg"
                 alt="Queima controlada de expansão"
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/21.jpg"
+                src="./static/images/21-mini.jpg"
                 alt="Monitoramento no PARNA Sempre Vivas (MG)"
                 horizontal={true}
             />
@@ -71,12 +71,12 @@ const Brigada = () => (
         </p>
         <div className="img">
             <Imagem
-                src="./static/slider/1.jpg"
+                src="./static/images/1-mini.jpg"
                 alt="Queima controlada de expansão"
                 horizontal={true}
             />
             <Imagem
-                src="./static/slider/30.jpg"
+                src="./static/images/30-mini.jpg"
                 alt="Vista aérea de queima controlada."
                 horizontal={true}
             />
